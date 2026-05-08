@@ -1,11 +1,3 @@
-<div id="calendar-modal" class="fixed inset-0 z-[100] hidden bg-obsidian/80 backdrop-blur-md flex flex-col items-center justify-center p-4">
-    <div class="w-full max-w-4xl bg-ivory rounded-md shadow-2xl flex flex-col overflow-hidden h-[90vh]">
-        <div class="w-full flex-grow relative bg-white">
-            <iframe id="cal-iframe" src="about:blank" class="absolute inset-0 w-full h-full border-0"></iframe>
-        </div>
-    </div>
-</div>
-
 <script>
     // --- 2. Validation & Seamless Data Injection ---
     function validateAndOpenModal() {
